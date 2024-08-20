@@ -1,0 +1,33 @@
+@import url('../assets/inter/inter.css');
+
+:root {
+    --background: #131414;
+    --second-background: #171818;
+    --highlight-one: #B52BCB;
+    --highlight-two: #00CAE3;
+}
+
+:root {
+    font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: "InterVariable", sans-serif;
+        font-optical-sizing: auto;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: white;
+}
+
+.purple-highlight {
+    color: var(--highlight-one);
+}
+.blue-highlight {
+    color: var(--highlight-two);
+}
