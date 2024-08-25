@@ -1,0 +1,53 @@
+@import url('default.css');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: underline;
+    color: var(--highlight-one);
+}
+
+.warning {
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+
+.personal-details {
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.privacy {
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.privacy h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.privacy img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.counter {
+    padding: 1rem;
+}

@@ -1,10 +1,12 @@
 @import url('../assets/inter/inter.css');
+@import url('../assets/kodemono/kodemono.css');
 
 :root {
     --background: #131414;
     --second-background: #171818;
     --highlight-one: #B52BCB;
     --highlight-two: #00CAE3;
+    --web-gradient: linear-gradient(-90deg, #B200FF 0%, #CCCCCC 50%, #00CAE3 100%);
 }
 
 :root {
@@ -28,6 +30,17 @@ body {
 .purple-highlight {
     color: var(--highlight-one);
 }
+
 .blue-highlight {
     color: var(--highlight-two);
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
 }
